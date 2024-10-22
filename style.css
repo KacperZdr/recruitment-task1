@@ -1,0 +1,43 @@
+/* GLOBAL */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,300,400,700);
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.cta-button {
+  background-color: #e23110;
+  border-radius: 0;
+  border: 0;
+}
+
+.cta-button:hover {
+  background-color: rgb(175, 0, 0);
+}
+
+/* NAVBAR */
+
+#top-navbar {
+  font-size: 15px;
+}
+
+#bottom-navbar {
+  font-size: 18px;
+}
+
+/* HERO SECTION */
+
+.hero {
+  height: 455px;
+  background-image: url(assets/bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.hero .container {
+  padding-top: 100px;
+}
+
+.customContainer {
+  background-color: white;
+}
