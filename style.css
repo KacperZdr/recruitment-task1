@@ -2,6 +2,7 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,300,400,700);
 body {
   font-family: "Open Sans", sans-serif;
+  overflow-x: hidden;
 }
 
 .cta-button {
@@ -35,9 +36,55 @@ body {
 }
 
 .hero .container {
-  padding-top: 100px;
+  padding-top: 90px;
 }
 
 .customContainer {
   background-color: white;
+}
+
+/* SOLUTION */
+
+.solution {
+  height: 700px;
+  padding-top: 100px;
+  padding-bottom: 70px;
+  margin-bottom: 50px;
+}
+
+.quoteText {
+  font-size: 22px;
+  max-width: 490px;
+}
+
+/* PARTNERSHIP LEVELS */
+
+.partnership-levels {
+  height: 700px;
+  background-image: url(assets/benefits-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 80px;
+}
+
+.circle {
+  display: inline-block;
+  background-color: #1876b0;
+  height: 16px;
+  width: 16px;
+  margin: 5px;
+}
+
+.light-circle {
+  display: inline-block;
+  background-color: #c6ddeb;
+  height: 16px;
+  width: 16px;
+  margin: 5px;
+}
+
+.rocket {
+  display: inline-block;
+  margin-left: 2px;
 }
