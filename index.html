@@ -21,7 +21,7 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand" id="top-navbar">
+      <nav class="navbar navbar-expand pb-0" id="top-navbar">
         <div class="container justify-content-end">
           <ul class="navbar-nav fw-bold">
             <li class="nav-item">
@@ -45,12 +45,12 @@
           </ul>
         </div>
       </nav>
-      <nav class="navbar navbar-expand text-uppercase" id="bottom-navbar">
+      <nav class="navbar navbar-expand pt-0 text-uppercase" id="bottom-navbar">
         <div class="container">
           <a class="navbar-brand" href="#">
             <img src="assets/xopero-logo.png" alt="Xopero Software" width="170" height="66" />
           </a>
-          <ul class="navbar-nav">
+          <ul class="navbar-nav d-flex align-content-center">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Solutions</a>
             </li>
@@ -72,7 +72,7 @@
             <li class="nav-item">
               <a class="nav-link" href="#">Company</a>
             </li>
-            <button type="button" class="btn btn-primary cta-button text-uppercase">Free trial</button>
+            <button type="button" class="btn btn-primary ms-2 cta-button text-uppercase">Free trial</button>
           </ul>
         </div>
       </nav>
@@ -80,10 +80,10 @@
     <section class="hero">
       <div class="container">
         <div class="row justify-content-evenly">
-          <div class="col-7 text-white">
-            <p class="fs-5 fw-bold">Case Study: Energetyka</p>
-            <h1>Grupa XYZ skutecznie zabezpiecza dane na wypadek ataków sabotażowych z Xopero Unified Protection</h1>
-            <button type="button" class="btn btn-primary cta-button">Pobierz</button>
+          <div class="col-8 text-white">
+            <p class="fs-5 fw-bold mb-4">Case Study: Energetyka</p>
+            <h1 class="mb-4">Grupa XYZ skutecznie zabezpiecza dane na wypadek ataków sabotażowych z Xopero Unified Protection</h1>
+            <button type="button" class="btn btn-primary cta-button-big">Pobierz</button>
           </div>
           <div class="col-3">
             <div class="customContainer rounded-4 shadow-lg">
@@ -297,28 +297,57 @@ a dedicated product team.</p>
     <section class="products">
         <div class="container d-flex flex-column justify-content-center gap-4">
             <h2 class="text-center p-5">Go beyond backup with Xopero</h2>
-            <div class="row d-flex justify-content-evenly">
-                <div class="product-box col-3 p-5 d-grid gap-3 bg-black text-white">
+            <div class="row d-flex justify-content-evenly mb-5">
+                <div class="product-box col-3 p-5 d-grid gap-3 bg-blackgradient text-white">
                     <img src="assets/BCDR-appliance.svg" alt="Image of BDCR" height="37" width="37">
                     <h3>Cutting-edge BCDR appliance</h3>
-                    <p>All-in-ONE backup appliance integrating powerful hardware with data backup and DR</p>
+                    <p class="m-0">All-in-ONE backup appliance integrating powerful hardware with data backup and DR</p>
                     <div><button type="button" class="btn btn-light border-0 rounded-0 fw-bold">Learn more</button></div>
                 </div>
-                <div class="product-box col-3 p-5 d-grid gap-3 bg-blue text-white">
+                <div class="product-box col-3 p-5 d-grid gap-3 bg-bluegradient text-white">
                     <img src="assets/software.svg" alt="Image of Software" height="37" width="37">
                     <h3>All-in-ONE backup & DR software</h3>
-                    <p>Comprehensive backup & Disaster Recovery solution designed for your compliance needs</p>
+                    <p class="m-0"d>Comprehensive backup & Disaster Recovery solution designed for your compliance needs</p>
                     <div><button type="button" class="btn btn-light border-0 rounded-0 fw-bold">Learn more</button></div>
                 </div>
-                <div class="product-box col-3 p-5 d-grid gap-3 bg-black text-white">
+                <div class="product-box col-3 p-5 d-grid gap-3 bg-blackgradient text-white">
                     <img src="assets/msp.svg" alt="Image of MSP" height="37" width="37">
-                    <h3>Cutting-edge BCDR appliance</h3>
-                    <p>All-in-ONE backup appliance integrating powerful hardware with data backup and DR</p>
+                    <h3>Backup & Disaster Recovery for MSP</h3>
+                    <p class="m-0">Build and grow a scalable MSP business with best-in-class backup & Disaster Recovery solution</p>
                     <div><button type="button" class="btn btn-light border-0 rounded-0 fw-bold">Learn more</button></div>
                 </div>
             </div>
         </div>
     </section>
-    <footer></footer>
+    <section class="protection">
+        <div class="container d-flex flex-column justify-content-center gap-4">
+            <h2 class="text-center p-5">Xopero zabezpieczy wszystkie Twoje dane</h2>
+            <div class="row d-flex justify-content-center gap-3 ">
+                <div class="col protection-image-box"><img src="assets/protection-icons/windows.svg" alt="Image of windows Logo"></div>
+                <div class="col protection-image-box"><img src="assets/protection-icons/linux.svg" alt="Image of linux Logo"></div>
+                <div class="col protection-image-box"><img src="assets/protection-icons/mac.svg" alt="Image of Mac Logo"></div>
+                <div class="col protection-image-box"><img src="assets/protection-icons/vmware.svg" alt="Image of VMware Logo"></div>
+                <div class="col protection-image-box"><img src="assets/protection-icons/hyper-v.svg" alt="Image of hyper-v Logo"></div>
+                <div class="col protection-image-box"><img src="assets/protection-icons/red-hat.svg" alt="Image of red hat Logo"></div>
+                <div class="col protection-image-box"><img src="assets/protection-icons/oracle.svg" alt="Image of Oracle Logo"></div>
+                <div class="col protection-image-box"><img src="assets/protection-icons/sql.svg" alt="Image of SQL Logo"></div>
+                <div class="col protection-image-box"><img src="assets/protection-icons/mysql.svg" alt="Image of MySQL Logo"></div>
+                <div class="col protection-image-box"><img src="assets/protection-icons/postgresql.svg" alt="Image of postgresql Logo"></div>
+                <div class="col protection-image-box"><img src="assets/protection-icons/m365.svg" alt="Image of m365 Logo"></div>
+                <div class="col protection-image-box"><img src="assets/protection-icons/github.svg" alt="Image of github Logo"></div>
+                <div class="col protection-image-box"><img src="assets/protection-icons/bitbucket.svg" alt="Image of bitbucket Logo"></div>
+                <div class="col protection-image-box"><img src="assets/protection-icons/gitlab.svg" alt="Image of gitlab Logo"></div>
+                <div class="col protection-image-box"><img src="assets/protection-icons/jira.svg" alt="Image of jira Logo"></div>
+                <div class="col protection-image-box2"><img src="assets/protection-icons/android.svg" alt="Image of android Logo"></div>
+                <div class="col protection-image-box2"><img src="assets/protection-icons/ios.svg" alt="Image of IOS Logo"></div>
+                <div class="col protection-image-box2"><img src="assets/protection-icons/wiecej.svg" alt="Image of link to see more"></div>
+            </div>
+            <div class="row d-flex justify-content-center m-5">
+                <div class="col d-flex justify-content-end"><button type="button" class="btn btn-primary cta-button">Wypróbuj</button></div>
+                <div class="col"><button type="button" class="btn btn-outline-dark border-0 rounded-0">Umów demo</button></div>
+            </div>
+
+        </div>
+    </section>
   </body>
 </html>
