@@ -21,7 +21,7 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand pb-0" id="top-navbar">
+      <nav class="navbar navbar-expand pb-0 d-none d-md-block" id="top-navbar">
         <div class="container justify-content-end">
           <ul class="navbar-nav fw-bold">
             <li class="nav-item">
@@ -45,47 +45,57 @@
           </ul>
         </div>
       </nav>
-      <nav class="navbar navbar-expand pt-0 text-uppercase" id="bottom-navbar">
+      <nav class="navbar navbar-expand-xl pt-0 text-uppercase" id="bottom-navbar">
         <div class="container">
           <a class="navbar-brand" href="#">
             <img src="assets/xopero-logo.png" alt="Xopero Software" width="170" height="66" />
           </a>
-          <ul class="navbar-nav d-flex align-content-center">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Solutions</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Partners</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Resources</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Support</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Company</a>
-            </li>
-            <button type="button" class="btn btn-primary ms-2 cta-button text-uppercase">Free trial</button>
-          </ul>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse justify-content-end" id="navbarText">
+            <ul class="navbar-nav d-flex align-content-center">
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Solutions</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Partners</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Resources</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Support</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Company</a>
+                </li>
+                <button type="button" class="btn btn-primary ms-2 cta-button text-uppercase">Free trial</button>
+            </ul>
+          </div>
+
+
+
         </div>
       </nav>
     </header>
     <section class="hero">
       <div class="container">
         <div class="row justify-content-evenly">
-          <div class="col-8 text-white">
+          <div class="col-10 col-xl-7 col-xxl-8 text-white">
             <p class="fs-5 fw-bold mb-4">Case Study: Energetyka</p>
             <h1 class="mb-4">Grupa XYZ skutecznie zabezpiecza dane na wypadek ataków sabotażowych z Xopero Unified Protection</h1>
-            <button type="button" class="btn btn-primary cta-button-big">Pobierz</button>
+            <button type="button" class="btn btn-primary cta-button-big mb-4 mb-xl-0">Pobierz</button>
           </div>
-          <div class="col-3">
+          <div class="col-10 col-xl-4 col-xxl-3">
             <div class="customContainer rounded-4 shadow-lg">
               <div class="row">
                 <div class="col p-5 fs-5">
@@ -107,8 +117,8 @@
     <section class="solution">
       <div class="container ">
         <div class="row mb-5 justify-content-center">
-          <div class="col-4 fw-bold"><h2>Rozwiązanie</h2></div>
-          <div class="col-5">
+          <div class="col-10 col-lg-4 mb-5 mb-lg-0 fw-bold"><h2>Rozwiązanie</h2></div>
+          <div class="col-10 col-lg-5">
             <p>
               Mając na uwadze swoją krytyczną rolę dla gospodarki, Grupa XYZ regularnie inwestuje w nowe technologie, procesy, naukę i badania -
               również w obszarze cyberbezpieczeństwa. Chcąc zabezpieczyć krytyczną infrastrukturę przed potencjalnymi atakami i utratą danych oraz
@@ -119,11 +129,11 @@
       </div>
       <div class="container-fluid ">
         <div class="row justify-content-center">
-          <div class="col p-0 "></div>
-          <div class="col fs-4 p-5 pb-0 rounded-start-4 shadow-lg ">
+          <div class="col-1 col-xl p-0 "></div>
+          <div class="col-11 col-xl fs-4 p-5 pb-0 rounded-start-4 shadow-lg ">
                 <div class="row">
                     <div class="position-absolute"><img src="assets/q-mark.svg" alt="Quote mark" width="55" height="45"></div>
-                    <div class="col-7 z-1 p-3 ms-4">
+                    <div class="col-11 col-xl-7 z-1 p-3 ms-4">
                         <blockquote class="quoteText">
                             O wyborze rozwiązania zdecydowało elastyczne podejście firmy Xopero do możliwości modyfikacji rozwiązania celem dostosowania do
                             naszych potrzeb oraz sprawnie wykonane wdrożenie wersji testowej.
@@ -143,7 +153,7 @@
     <section class="partnership-levels">
         <div class="container p-5">
             <div class="row  bg-white d-flex justify-content-center g-5">
-                <div class="col d-grid gap-4">
+                <div class="col-10 col-lg-6 col-xl-4 d-grid gap-4">
                     <img src="assets/authorized-badge.svg" alt="image of Authorized Badge" width="73" height="53">
                     <h3 class="fw-bold fs-5 m-0">Authorized Partner</h3>
                     <p class="fs-6">Unlock the first-level of discounts and partner benefits with a dedicated account manager ready to help you win big. </p>
@@ -158,7 +168,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col d-grid gap-4">
+                <div class="col-10 col-lg-6 col-xl-4 d-grid gap-4">
                     <img src="assets/gold-badge.svg" alt="image of Gold Badge" width="73" height="53">
                     <h3 class="fw-bold fs-5 m-0">Gold Partner</h3>
                     <p class="fs-6">All benefits of an Authorized Partner plus higher discounts, co-marketing activities, on-demand trainings, and more. </p>
@@ -173,7 +183,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col d-grid gap-4">
+                <div class="col-10 col-lg-6 col-xl-4 d-grid gap-4">
                     <img src="assets/platinum-badge.svg  " alt="image of Platinum Badge" width="73" height="53">
                     <h3 class="fw-bold fs-5 m-0">Platinum Partner</h3>
                     <p class="fs-6">The best discounts, access to the Extended Marketing Program, and 
@@ -196,7 +206,7 @@ a dedicated product team.</p>
         <div class="container d-flex flex-column justify-content-center gap-4">
             <h2 class="text-center p-5">Your partner benefits</h2>
             <div class="row">
-                <div class="col-4 p-4">
+                <div class="col-8 col-sm-6 col-xl-4 p-4">
                     <div class="row">
                         <div class="col p-0 d-flex justify-content-end">
                             <img src="assets/round-check.svg" alt="image od icon round check" height="20" width="20">
@@ -211,7 +221,7 @@ a dedicated product team.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-4 p-4">
+                <div class="col-8 col-sm-6 col-xl-4 p-4">
                     <div class="row">
                         <div class="col p-0 d-flex justify-content-end">
                             <img src="assets/round-check.svg" alt="image od icon round check" height="20" width="20">
@@ -226,7 +236,7 @@ a dedicated product team.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-4 p-4">
+                <div class="col-8 col-sm-6 col-xl-4 p-4">
                     <div class="row">
                         <div class="col p-0 d-flex justify-content-end">
                             <img src="assets/round-check.svg" alt="image od icon round check" height="20" width="20">
@@ -241,7 +251,7 @@ a dedicated product team.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-4 p-4">
+                <div class="col-8 col-sm-6 col-xl-4 p-4">
                     <div class="row">
                         <div class="col p-0 d-flex justify-content-end">
                             <img src="assets/round-check.svg" alt="image od icon round check" height="20" width="20">
@@ -256,7 +266,7 @@ a dedicated product team.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-4 p-4">
+                <div class="col-8 col-sm-6 col-xl-4 p-4">
                     <div class="row">
                         <div class="col p-0 d-flex justify-content-end">
                             <img src="assets/round-check.svg" alt="image od icon round check" height="20" width="20">
@@ -271,7 +281,7 @@ a dedicated product team.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-4 p-4">
+                <div class="col-8 col-sm-6 col-xl-4 p-4">
                     <div class="row">
                         <div class="col p-0 d-flex justify-content-end">
                             <img src="assets/round-check.svg" alt="image od icon round check" height="20" width="20">
@@ -288,8 +298,8 @@ a dedicated product team.</p>
                 </div>
             </div>
             <div class="row d-flex justify-content-center">
-                <div class="col d-flex justify-content-end"><button type="button" class="btn btn-primary cta-button">Become Partner</button></div>
-                <div class="col"><button type="button" class="btn btn-outline-dark border-0 rounded-0">Schedule call</button></div>
+                <div class="col d-flex justify-content-end"><button type="button" class="btn btn-primary cta-button cta-button-sections fw-bold ">Become Partner</button></div>
+                <div class="col"><button type="button" class="btn btn-outline-dark  cta-button-sections border-0 rounded-0">Schedule call</button></div>
             </div>
             
         </div>
@@ -297,20 +307,20 @@ a dedicated product team.</p>
     <section class="products">
         <div class="container d-flex flex-column justify-content-center gap-4">
             <h2 class="text-center p-5">Go beyond backup with Xopero</h2>
-            <div class="row d-flex justify-content-evenly mb-5">
-                <div class="product-box col-3 p-5 d-grid gap-3 bg-blackgradient text-white">
+            <div class="row d-flex justify-content-evenly mb-5 gap-5">
+                <div class="product-box col-9 col-lg-5 col-xl-3 p-5 d-grid gap-3 bg-blackgradient text-white">
                     <img src="assets/BCDR-appliance.svg" alt="Image of BDCR" height="37" width="37">
                     <h3>Cutting-edge BCDR appliance</h3>
                     <p class="m-0">All-in-ONE backup appliance integrating powerful hardware with data backup and DR</p>
                     <div><button type="button" class="btn btn-light border-0 rounded-0 fw-bold">Learn more</button></div>
                 </div>
-                <div class="product-box col-3 p-5 d-grid gap-3 bg-bluegradient text-white">
+                <div class="product-box col-9 col-lg-5 col-xl-3 p-5 d-grid gap-3 bg-bluegradient text-white">
                     <img src="assets/software.svg" alt="Image of Software" height="37" width="37">
                     <h3>All-in-ONE backup & DR software</h3>
                     <p class="m-0"d>Comprehensive backup & Disaster Recovery solution designed for your compliance needs</p>
                     <div><button type="button" class="btn btn-light border-0 rounded-0 fw-bold">Learn more</button></div>
                 </div>
-                <div class="product-box col-3 p-5 d-grid gap-3 bg-blackgradient text-white">
+                <div class="product-box col-9 col-lg-5 col-xl-3 p-5 d-grid gap-3 bg-blackgradient text-white">
                     <img src="assets/msp.svg" alt="Image of MSP" height="37" width="37">
                     <h3>Backup & Disaster Recovery for MSP</h3>
                     <p class="m-0">Build and grow a scalable MSP business with best-in-class backup & Disaster Recovery solution</p>
@@ -343,8 +353,8 @@ a dedicated product team.</p>
                 <div class="col protection-image-box2"><img src="assets/protection-icons/wiecej.svg" alt="Image of link to see more"></div>
             </div>
             <div class="row d-flex justify-content-center m-5">
-                <div class="col d-flex justify-content-end"><button type="button" class="btn btn-primary cta-button">Wypróbuj</button></div>
-                <div class="col"><button type="button" class="btn btn-outline-dark border-0 rounded-0">Umów demo</button></div>
+                <div class="col d-flex justify-content-end"><button type="button" class="btn btn-primary cta-button cta-button-sections fw-bold">Wypróbuj</button></div>
+                <div class="col"><button type="button" class="btn btn-outline-dark border-0 rounded-0 cta-button-sections">Umów demo</button></div>
             </div>
 
         </div>
