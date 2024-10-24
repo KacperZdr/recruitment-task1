@@ -129,6 +129,14 @@ body {
     margin-left: 3px;
 }
 
+@media (max-width: 1200px) {
+
+    .partnership-levels {
+        height: auto;
+    }
+
+}
+
 /* partner-benefits */
 
 .partner-benefits {
@@ -146,6 +154,15 @@ body {
 
 .partner-benefits li::marker {
     color: #c4ddeb;
+}
+
+@media (max-width: 1200px) {
+
+
+    .partner-benefits {
+        margin-top: 30px;
+        margin-bottom: 60px;
+    }
 }
 
 /* PRODUCTS */
@@ -202,14 +219,3 @@ body {
 }
 
 
-@media (max-width: 1200px) {
-
-    .partnership-levels {
-        height: auto;
-    }
-
-    .partner-benefits {
-        margin-top: 30px;
-        margin-bottom: 60px;
-    }
-}

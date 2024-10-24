@@ -114,6 +114,11 @@ body {
   margin-left: 3px;
 }
 
+@media (max-width: 1200px) {
+  .partnership-levels {
+    height: auto;
+  }
+}
 /* partner-benefits */
 .partner-benefits {
   margin-top: -470px;
@@ -132,6 +137,12 @@ body {
   color: #c4ddeb;
 }
 
+@media (max-width: 1200px) {
+  .partner-benefits {
+    margin-top: 30px;
+    margin-bottom: 60px;
+  }
+}
 /* PRODUCTS */
 .products .row > .product-box {
   border-radius: 90px 0px 90px 0px;
@@ -180,14 +191,4 @@ body {
 .protection img {
   max-height: 100%;
   max-width: 70%;
-}
-
-@media (max-width: 1200px) {
-  .partnership-levels {
-    height: auto;
-  }
-  .partner-benefits {
-    margin-top: 30px;
-    margin-bottom: 60px;
-  }
 }/*# sourceMappingURL=style.css.map */
